@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <style>
+    body{
+      padding: 0;
+      margin: 0;
+      font-family: 'Balsamiq Sans', cursive;
+    }
+    .row{
+      width: 100%;
+      padding: 5px;
+    }
+
+    .heading{
+      text-align: center;
+    }
+    .chicken,.beef,.sushi{
+      border: 1px solid black;
+      width: 120px;
+      text-align: center;
+      float: right;
+      font-size: 18px;
+    }
+    .chicken{
+      background-color: pink;
+    }
+    .beef{
+      background-color: red;
+      color: white;
+    }
+    .sushi{
+      background-color: rgb(218, 218, 61);
+    }
+    .first,.second,.third{
+      border: 1px solid black;
+      margin: 10px;
+      background-color: gray;
+    }
+    p{
+      padding: 10px;
+    }
+
+   
+  @media(min-width:979px){
+  .first, .second, .third{
+    float: left;
+    width: 31%;
+  }
+}
+@media(min-width: 768px)and (max-width){
+      .first, .second{
+       float: left;
+        width: 50%
+      }
+    .third{
+      float: left;
+      width: 100%;
+    }}
+    @media (max-width: 767px){
+      .first,.second,.third{
+        float: left;
+        width: 100%;
+      }}
+
+  </style>
+</head>
+<body>
+  
+
+  <div class="container">
+    <div class="heading"><h1>Our Menu</h1></div>
+
+    <div class="row">
+      <div class="first">
+        <div class="chicken">Chicken</div>
+        <div>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint dolor, repellendus officia atque ipsam natus quoxcv xczzd dfsdf xcdfs fs  sdf sdfs dfdfsdf sfd quam quisquam iste. Maxime fuga nulla, aperiam aut dolore porro voluptas quas soluta ratione!
+            </p>
+        </div>
+      </div>
+
+        <div class="second">
+          <div class="beef">Beef</div>
+          <div>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quam saepe laborum cupiditate adipisci sed tenetur libero placeat, culpa esse, quae reprehenderit cvbxc dfdff dfsdf corrupti pariatur earum delectus? Reprehenderit inventore nam cum!
+            </p>
+          </div>
+        </div>
+
+      <div class="third">
+        <div class="sushi">Sushi</div>
+        <div>
+           <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore cumque enim illo. Obcaecati eius minima nemoquam saepe laborum cupiditate adipisci nam quo mollitia fuga recusandae, nihil ducimus impedit molestiae enim aspernatur quia accusantium deleniti?
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
